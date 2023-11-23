@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy-Bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+
+.header__logo {
+    display: flex;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.logo__text {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.logo__text__red {
+    color: #F25822;
+}
+
+.header__link {
+    margin-top: 51px;
+}
+
+.nav {
+    Size: 14px;
+    Line-height: 16.41px;
+    color: #000;
+    margin-left: 22px;
+}
+
+.nav__home {
+    color: #F25822;
+}
+
+.nav_details {
+    display: inline;
+}
+
+.nav_details > summary {
+    list-style: none;
+}
+
+.content {
+    padding-top: 45px;
+    padding-bottom: 162px;
+    display: flex;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+
+.content__highlight {
+    margin-bottom: 17px;
+}
+
+.highlight {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content__text {
+    margin-bottom: 37px;
+}
+
+.text {
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*
+.content__buttons {
+    
+}
+*/
+.button__start {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    margin-right: 72px;
+}
+
+.link__start {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link__watch {
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content_image {
+    width: 544.814px;
+    height: 374.843px;
+    flex-shrink: 0;
+    margin-left: 41px;
+}
+
+.content__right {
+    margin-right: 64px;
+}
+
+.footer {
+    margin-left: 345px;
+}
+
+.footer__logos {
+    margin-right: 48px;
+}
