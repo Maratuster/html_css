@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("../fonts/GilroyBold/GilroyBold.eot");
+    src: url("../fonts/GilroyBold/GilroyBold.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/GilroyBold/GilroyBold.woff") format("woff"),
+        url("../fonts/GilroyBold/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+
+    font-family: "GilroyMedium";
+    src: url("../fonts/GilroyMedium/GilroyMedium.eot");
+    src: url("../fonts/GilroyMedium/GilroyMedium.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/GilroyMedium/GilroyMedium.woff") format("woff"),
+        url("../fonts/GilroyMedium/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+
+    font-family: "GilroySemiBold";
+    src: url("../fonts/GilroySemiBold/GilroySemiBold.eot");
+    src: url("../fonts/GilroySemiBold/GilroySemiBold.eot?#iefix")format("embedded-opentype"),
+        url("../fonts/GilroySemiBold/GilroySemiBold.woff") format("woff"),
+        url("../fonts/GilroySemiBold/GilroySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+body {
+    background: #FFF;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head {
+    padding: 100px 370px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.recomendation {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    max-width: 370px;
+
+}
+
+.img__rec {
+    display: block;
+    width: 70px;
+
+}
+
+.headings {
+    display: inline-block;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 25px;
+}
+
+.text__rec {
+    display: inline-block;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    padding-top: 17px;
+}
+
+.link__rec {
+    display: inline-block;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 16.5px */
+    padding-top: 25px;
+}
+
+.head__shadow {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.main__content {
+    padding-top: 92px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    background: #FAFAFA;
+}
+
+.main__heading {
+    padding-bottom: 50px;
+    padding-right: 619px;
+    padding-left: 619px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__content__heading {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.main__content__text {
+    padding-top: 19px;
+    max-width: 682px;
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.features__content {
+    padding-right: 353px;
+    padding-left: 353px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.features {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+    align-content: center;
+}
+
+.features__shadow {
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.features__img {
+    padding-bottom: 45px;
+    width: 362px;
+    height: 264px;
+}
+
+.headings__features {
+    text-align: center;
+}
+
+.features__content__text {
+    padding-top: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 39px;
+    max-width: 310px;
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+
+}
+
+.features__content__button {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #F25822;
+    border-radius: 25px;
+}
+
+.button__learn__more {
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 19.5px */
+}
+
+.features__btn {
+    display: flex;
+    justify-content: center;
+}

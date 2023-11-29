@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Gilroy-Bold;
 }
 @font-face {
     font-family: "GilroyBold";
@@ -27,6 +26,10 @@
     url("../fonts/GilroySemiBold/GilroySemiBold.ttf") format("truetype");
     font-style: normal;
     font-weight: 600;
+}
+
+img {
+    max-width: 100%;
 }
 
 a {
@@ -165,4 +168,50 @@ a {
     padding-right: 375px;
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+
+    .header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .content__logo {
+        padding-left: 0px;
+        padding-right: 30px;
+
+    }
+}
+
+@media (max-width: 767px) {
+
+    .header {
+        padding-left: 16px;
+        padding-right: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .content {
+        padding-left: 16px;
+        padding-right: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .content__logo {
+        padding-left: 0px;
+        padding-right: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 }
